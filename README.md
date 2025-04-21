@@ -13,6 +13,17 @@ This user directory application provides:
 - Filter users by various criteria
 - Clean and modern UI interface
 
+### Data Source
+
+The application fetches user data from a REST API that provides:
+- User basic information (name, username, email)
+- Contact details (phone, website)
+- Company information
+- Address details including geo-coordinates
+- All data is retrieved through RESTful endpoints
+- Built-in error handling for API requests
+- Automatic data refresh mechanisms
+
 ### Screenshots
 
 ![Home Page](src/screenshots/home.png)
@@ -33,7 +44,7 @@ This user directory application provides:
 
 1. Clone the repository:
 ```bash
-git clone [repo-url]
+git clone [https://github.com/G-Bryan237/user-list-react-app]
 cd user-directory
 ```
 
@@ -81,6 +92,17 @@ Cette application de répertoire d'utilisateurs propose :
 - Filtrage des utilisateurs selon différents critères
 - Interface utilisateur moderne et épurée
 
+### Source des données
+
+L'application récupère les données utilisateurs depuis une API REST qui fournit :
+- Informations de base des utilisateurs (nom, nom d'utilisateur, email)
+- Coordonnées (téléphone, site web)
+- Informations sur l'entreprise
+- Détails d'adresse incluant les coordonnées géographiques
+- Toutes les données sont récupérées via des points d'accès RESTful
+- Gestion intégrée des erreurs pour les requêtes API
+- Mécanismes de rafraîchissement automatique des données
+
 ### Captures d'écran
 
 ![Page d'accueil](src/screenshots/home.png)
@@ -101,7 +123,7 @@ Cette application de répertoire d'utilisateurs propose :
 
 1. Clonez le dépôt :
 ```bash
-git clone [url-du-repo]
+git clone [https://github.com/G-Bryan237/user-list-react-app]
 cd user-directory
 ```
 
